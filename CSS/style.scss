@@ -1,0 +1,220 @@
+//Import mixins file
+@import "mixins";
+
+//Delete default settings
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Container style 
+#container{
+    @include size(100%, 1000px);
+    background: url(IMG/G6mdsD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flexCenter();
+    #containerMain{
+        @include size(1200px, 600px);
+        @include flDownBetween();
+        textarea{
+            min-width: 1000px;
+            max-width: 1000px;
+            min-height: 135px;
+            max-height: 135px;
+            background: linear-gradient(#010101, #2E0000);
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            box-shadow: 0 0 10px #E80000;
+            padding: 10px;
+            font-size: 20px;
+            color: #FF1709;
+        }
+        #keyboard{
+            @include size(1200px, 335px);
+            background: linear-gradient(#010101, #2E0000);
+            box-shadow: 0 0 10px #E80000;
+            border-radius: 15px;
+            @include flexAround();
+            #keyboardLeftPannel{
+                @include size(752px, 312px);
+                @include flexBetween();
+                flex-wrap: wrap;
+                align-content: space-between;
+                .keys{
+                    @include size(48px, 48px);
+                    @include flexCenter();
+                    background-color: #2E0000;
+                    border: 2px solid #5E0001;
+                    border-radius: 5px;
+                    box-shadow: 0 0 15px #E80000;
+                    cursor: pointer;
+                    P{
+                        font-size: 18px;
+                        color: #FF1709;
+                    }
+                }
+                #Escape{
+                    width: 78px;
+                    margin-right: 5px;
+                }
+                #Backspace{
+                    width: 78px;
+                }
+                #Tab{
+                    width: 78px;
+                }
+                #CapsLock{
+                    width: 92px;
+                }
+                #Enter{
+                    width: 90px;
+                }
+                #ShiftLeft{
+                    width: 100px;
+                }
+                #ShiftRight{
+                    width: 100px;
+                }
+                #ControlLeft{
+                    width: 76px;
+                }
+                #OSLeft{
+                    width: 62px;
+                }
+                #AltLeft{
+                    width: 82px;
+                }
+                #Space{
+                    width: 280px;
+                }
+                #AltRight{
+                    width: 82px;
+                }
+                #ContextMenu{
+                    width: 62px;
+                }
+                #ControlRight{
+                    width: 76px;
+                }
+            }
+            #keyboardCenterPannel{
+                @include size(158px, 312px);
+                @include flDownBetween();
+                #keyboardCenterPannelUp{
+                    @include size(100%, 153px);
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-between;
+                    justify-content: space-between;
+                    .keys{
+                        @include size(48px, 48px);
+                        @include flexCenter();
+                        background-color: #2E0000;
+                        border: 2px solid #5E0001;
+                        border-radius: 5px;
+                        box-shadow: 0 0 15px #E80000;
+                        cursor: pointer;
+                        P{
+                            font-size: 18px;
+                            color: #FF1709;
+                        }
+                    }
+                }
+                #keyboardCenterPannelDown{
+                    @include size(100%, 102px);
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-between;
+                    justify-content: space-between;
+                    .keys{
+                        @include size(48px, 48px);
+                        @include flexCenter();
+                        background-color: #2E0000;
+                        border: 2px solid #5E0001;
+                        border-radius: 5px;
+                        box-shadow: 0 0 15px #E80000;
+                        cursor: pointer;
+                        P{
+                            font-size: 18px;
+                            color: #FF1709;
+                        }
+                    }
+                    .keys:nth-child(1){
+                        margin-left: 55px;
+                        margin-right: 30px;
+                    }
+                }
+            }
+            #keyboardRightPannel{
+                @include size(212px, 312px);
+                @include flDownBetween();
+                #keyboardRightPannelUp{
+                    @include size(212px, 206px);
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-content: space-between;
+                    .keys{
+                        @include size(48px, 48px);
+                        @include flexCenter();
+                        background-color: #2E0000;
+                        border: 2px solid #5E0001;
+                        border-radius: 5px;
+                        box-shadow: 0 0 15px #E80000;
+                        cursor: pointer;
+                        P{
+                            font-size: 18px;
+                            color: #FF1709;
+                        }
+                    }
+                }
+                #keyboardRightPannelDown{
+                    @include size(212px, 102px);
+                    @include flexBetween();
+                    #keyboardRightPannelDownLeft{
+                        @include size(158px, 102px);
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-content: space-between;
+                        .keys{
+                            @include size(48px, 48px);
+                            @include flexCenter();
+                            background-color: #2E0000;
+                            border: 2px solid #5E0001;
+                            border-radius: 5px;
+                            box-shadow: 0 0 15px #E80000;
+                            cursor: pointer;
+                            P{
+                                font-size: 18px;
+                                color: #FF1709;
+                            }
+                        }
+                        #Numpad0{
+                            width: 104px;
+                        }
+                    }
+                    #keyboardRightPannelDownRight{
+                        .keys{
+                            @include size(48px, 102px);
+                            @include flexCenter();
+                            background-color: #2E0000;
+                            border: 2px solid #5E0001;
+                            border-radius: 5px;
+                            box-shadow: 0 0 15px #E80000;
+                            cursor: pointer;
+                            P{
+                                font-size: 18px;
+                                color: #FF1709;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

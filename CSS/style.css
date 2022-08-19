@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 1000px;
+  background: url(IMG/G6mdsD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container #containerMain {
+  width: 1200px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain textarea {
+  min-width: 1000px;
+  max-width: 1000px;
+  min-height: 135px;
+  max-height: 135px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#010101), to(#2E0000));
+  background: linear-gradient(#010101, #2E0000);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px #E80000;
+          box-shadow: 0 0 10px #E80000;
+  padding: 10px;
+  font-size: 20px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard {
+  width: 1200px;
+  height: 335px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#010101), to(#2E0000));
+  background: linear-gradient(#010101, #2E0000);
+  -webkit-box-shadow: 0 0 10px #E80000;
+          box-shadow: 0 0 10px #E80000;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel {
+  width: 752px;
+  height: 312px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel .keys {
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #Escape {
+  width: 78px;
+  margin-right: 5px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #Backspace {
+  width: 78px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #Tab {
+  width: 78px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #CapsLock {
+  width: 92px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #Enter {
+  width: 90px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #ShiftLeft {
+  width: 100px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #ShiftRight {
+  width: 100px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #ControlLeft {
+  width: 76px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #OSLeft {
+  width: 62px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #AltLeft {
+  width: 82px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #Space {
+  width: 280px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #AltRight {
+  width: 82px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #ContextMenu {
+  width: 62px;
+}
+
+#container #containerMain #keyboard #keyboardLeftPannel #ControlRight {
+  width: 76px;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel {
+  width: 158px;
+  height: 312px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelUp {
+  width: 100%;
+  height: 153px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelUp .keys {
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelUp .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelDown {
+  width: 100%;
+  height: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelDown .keys {
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelDown .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard #keyboardCenterPannel #keyboardCenterPannelDown .keys:nth-child(1) {
+  margin-left: 55px;
+  margin-right: 30px;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel {
+  width: 212px;
+  height: 312px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelUp {
+  width: 212px;
+  height: 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelUp .keys {
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelUp .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown {
+  width: 212px;
+  height: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownLeft {
+  width: 158px;
+  height: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownLeft .keys {
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownLeft .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownLeft #Numpad0 {
+  width: 104px;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownRight .keys {
+  width: 48px;
+  height: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E0000;
+  border: 2px solid #5E0001;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 15px #E80000;
+          box-shadow: 0 0 15px #E80000;
+  cursor: pointer;
+}
+
+#container #containerMain #keyboard #keyboardRightPannel #keyboardRightPannelDown #keyboardRightPannelDownRight .keys P {
+  font-size: 18px;
+  color: #FF1709;
+}
+/*# sourceMappingURL=style.css.map */
